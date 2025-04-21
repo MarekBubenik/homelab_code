@@ -4,6 +4,16 @@
 # venv / For libraries, i.e., when you will use the code primarily by importing it in your own projects. Typically, you should create a virtual environment yourself.
 
 # pipx install cowsay
+#
+# pip3 install -r requirements.txt / with -r you can pass a text list of packages to install
+#
+# Flask==0.10.1
+# gunicorn==18.0
+# etc.
+#
+# pip3 install flask --upgrade
+# pip3 uninstall flask
+#
 
 import cowsay
 import sys
